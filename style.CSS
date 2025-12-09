@@ -1,0 +1,90 @@
+/* style.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #ffeb00;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+nav img {
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.content {
+  text-align: center;
+  padding: 40px 20px;
+  font-family: arial;
+}
+
+.content h1 {
+  font-size: 24px;
+}
+
+.content h2 {
+  font-size: 30px;
+  color: #fbbf24; /* warna orange kuning sesuai branding */
+}
+
+.content img {
+  width: 90%;
+  max-width: 600px;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button-promo {
+  background-color: #ffc107;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer div {
+  margin: 5px 0;
+}
+
+footer a {
+  color: white;
+}
